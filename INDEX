@@ -1,0 +1,10 @@
+<form id="projectForm">
+  <input type="text" placeholder="Student Name" id="name" required><br>
+  <input type="text" placeholder="Class" id="class" required><br>
+  <input type="text" placeholder="School Name" id="school" required><br>
+  <input type="text" placeholder="Project Title" id="title" required><br>
+  <textarea placeholder="Project Description" id="description" required></textarea><br>
+  <input type="file" id="photo" accept="image/*"><br>
+  <input type="url" placeholder="YouTube/Drive Video Link" id="video"><br>
+  <button type="submit">Submit Project</button>
+</form>
